@@ -21,6 +21,5 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference databaseReference =firebaseDatabase.getReference("name");
         databaseReference.setValue("Israel");
-
     }
 }
